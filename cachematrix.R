@@ -2,8 +2,8 @@
 # if X is a square invertible matrix, then solve(X) returns its inverse
 
 # if X not a square then solve return an error
-# So if X not square use ginv function 
-# ginv can be used in both square and not square matrix
+# So if X not a square use ginv function 
+# ginv can be used in both square and non square matrix
 
 # firstly install MASS
 # set the value of the matrix
@@ -44,7 +44,7 @@ cacheSolve <- function(x, ...) {
 
 #try
 
-#not square matrix
+#non square matrix
 #a <- rbind(c(5,2),c(8,4),c(1,6))
 #b <- makeCacheMatrix(a)
 #b$get()
